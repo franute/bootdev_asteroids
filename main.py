@@ -26,6 +26,7 @@ def main():
 
         screen.fill("black")
 
+        player.update(dt)
         player.draw(screen)
 
         dt = clock.tick(60)/1000
